@@ -13,7 +13,7 @@ interface GradeReport {
 
 export const generatePDF = async (data: GradeReport): Promise<Blob> => {
   try {
-    const response = await fetch('http://localhost:5000/generate_pdf', {
+    const response = await fetch('https://gpacalculatorbackend.onrender.com/generate_pdf', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

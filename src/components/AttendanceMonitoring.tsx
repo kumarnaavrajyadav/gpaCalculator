@@ -37,7 +37,7 @@ const AttendanceMonitoring: React.FC = () => {
     };
 
     try {
-        const backendUrl = "http://127.0.0.1:5000"; // Or whatever your Flask URL is
+        const backendUrl = "https://gpacalculatorbackend.onrender.com"; // Or whatever your Flask URL is
 
         const endpoint =
           format === "pdf"
